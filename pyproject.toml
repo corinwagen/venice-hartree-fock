@@ -1,0 +1,18 @@
+[project]
+name = "venice-hartree-fock"
+version = "0.1.0"
+description = "A pedagogical 2D Hartree-Fock model of tourist distribution in Venice"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29",
+    "jupyterlab>=4.2",
+    "matplotlib>=3.9",
+    "nbclient>=0.10",
+    "nbformat>=5.10",
+    "numpy>=2.0",
+    "pillow>=10.4",
+    "scipy>=1.14",
+]
+
+[tool.uv]
+package = false
